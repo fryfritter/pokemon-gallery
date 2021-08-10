@@ -1,17 +1,9 @@
 import React from "react";
 import "./App.css";
+import PokemonCard from "./pokecards/PokemonCard";
 import pokemonData from "./pokemon/pokemon";
 
 const bulbasaur = pokemonData[0];
-
-function PokemonCard({ pokemon }) {
-  const { id, name, type, base } = pokemon;
-  return (
-    <div>
-      <div>{name.english}</div>
-    </div>
-  );
-}
 
 function App() {
   return (
