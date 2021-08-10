@@ -1,7 +1,71 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
 .card_container {
-  border-radius: 25px;
-  background: #73ad21;
-  padding: 20px;
+  border-radius: 15px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
   width: 200px;
-  height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: cursive;
+}
+
+.pokemon_name {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px;
+}
+.type_container {
+  padding-bottom: 20px;
+  align-items: stretch;
+}
+
+.image_small {
+  height: 120px;
+}
+.type {
+  display: inline-block;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 2px;
+  margin: 3px;
+  width: 70px;
+  text-align: center;
+}
+
+.poison {
+  background-color: rgb(177, 126, 245);
+}
+
+.grass {
+  background-color: lightgreen;
+}
+
+.bug {
+  background-color: rgb(111, 235, 111);
+}
+
+.water {
+  background-color: lightblue;
+}
+
+.fire {
+  background-color: red;
+}
+
+.flying {
+  background-color: pink;
+}
+
+.normal {
+  background-color: brown;
 }

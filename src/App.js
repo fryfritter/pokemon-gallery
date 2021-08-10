@@ -8,7 +8,9 @@ const bulbasaur = pokemonData[0];
 function App() {
   return (
     <div className="App">
-      <PokemonCard pokemon={bulbasaur} />
+      {pokemonData.map((poke) => (
+        <PokemonCard pokemon={poke} />
+      ))}
     </div>
   );
 }
